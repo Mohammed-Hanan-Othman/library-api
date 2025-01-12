@@ -125,7 +125,7 @@ Some endpoints support filtering to allow users to narrow down results based on 
 #### Example
 **Request:**
 ```http
-GET books/by-title?title=unto
+GET /books/by-title?title=unto
 ```
 ##### **Parameters:**
 - `title`: Title (or partial title) to base search on.
